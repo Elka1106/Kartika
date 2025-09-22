@@ -1,0 +1,75 @@
+# 📘 Wireframing dan Prototype
+
+---
+
+## 🔹 Apa itu Wireframing?
+**Wireframing** adalah gambaran kasar atau sketsa awal dari sebuah aplikasi/website.  
+➡️ Sederhananya, wireframe adalah **peta atau blueprint** sebelum desain jadi lebih detail.  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fb87f77e-9872-4b2f-9b83-2a62f4c02a0d" width="500" />
+</p>
+
+### ✅ Tujuan Wireframing:
+- Menentukan tata letak elemen (layout).  
+- Memberi gambaran alur penggunaan aplikasi.  
+- Mempermudah komunikasi antara desainer, developer, dan stakeholder.  
+- Menghemat waktu sebelum membuat desain visual penuh.  
+
+### 📌 Contoh Wireframe:
+- Kotak abu-abu untuk gambar.  
+- Garis untuk teks atau tombol.  
+- Tampilan sederhana, tanpa warna atau detail desain.  
+
+---
+
+## 🔹 Apa itu Prototype?
+**Prototype** adalah versi interaktif dari desain aplikasi/website.  
+➡️ Prototype biasanya dibuat setelah wireframe, agar bisa **dicoba langsung** oleh pengguna.  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/74822843-6290-4f88-a7e2-54e7c826ce0c" width="500" />
+</p>
+
+### ✅ Tujuan Prototype:
+- Memberikan pengalaman nyata sebelum aplikasi dibangun.  
+- Menguji alur dan interaksi pengguna.  
+- Menemukan masalah usability lebih cepat.  
+- Memperlihatkan ide ke stakeholder dengan lebih jelas.  
+
+### 📌 Contoh Prototype:
+- Tombol bisa diklik dan berpindah halaman.  
+- Form bisa diisi (walau belum tersimpan ke database).  
+- Navigasi antar halaman sudah bisa dicoba.  
+
+---
+
+## 🔹 Perbedaan Wireframing dan Prototype
+
+| Aspek        | Wireframe                             | Prototype                            |
+|--------------|---------------------------------------|--------------------------------------|
+| Detail       | Sederhana (garis, kotak, teks dummy)  | Lebih detail, menyerupai aplikasi nyata |
+| Warna        | Biasanya hitam-putih/abu-abu          | Penuh warna dan elemen visual        |
+| Fungsi       | Hanya gambaran tata letak             | Bisa dicoba, interaktif              |
+| Tujuan       | Menentukan struktur & alur dasar      | Menguji pengalaman pengguna (UX)     |
+| Contoh Tools | Balsamiq, Figma (low-fidelity)        | Figma, Adobe XD, InVision            |
+
+---
+
+## 🔹 Pentingnya Wireframing & Prototype
+1. **Menghemat biaya & waktu**  
+   - Kesalahan lebih cepat ditemukan sebelum coding dimulai.  
+2. **Meningkatkan komunikasi tim**  
+   - Semua anggota (desainer, developer, klien) punya gambaran yang sama.  
+3. **Mengurangi risiko kegagalan**  
+   - UX bisa diuji lebih awal sehingga aplikasi lebih ramah pengguna.  
+4. **Meningkatkan kualitas desain akhir**  
+   - Karena sudah melalui tahap perbaikan berulang.  
+
+---
+
+## 🔹 Kesimpulan
+- **Wireframe = blueprint sederhana**, fokus ke struktur.  
+- **Prototype = versi interaktif**, fokus ke pengalaman nyata.  
+- Keduanya sama-sama penting sebelum masuk ke tahap pengembangan aplikasi.  
+- Dengan wireframing & prototyping, aplikasi jadi lebih efisien, nyaman, dan sesuai kebutuhan pengguna.  
