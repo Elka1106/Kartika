@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title></title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f4f4f4;
+            }
+            h1 {
+                color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Dashboard</h1>
+        <p>Selamat datang di dashboard!</p>
+        
+        <form id="back">
+            <input type="submit" value="Kembali">
+        </form>
+
+        <script>
+        document.getElementById('back').addEventListener('submit', function(e) {
+            e.preventDefault();
+                window.location.href = 'login.html';
+            
+        });
+    </script>
+
+    </body>
