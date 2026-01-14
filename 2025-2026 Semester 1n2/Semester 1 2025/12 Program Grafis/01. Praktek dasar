@@ -1,0 +1,176 @@
+Berikut **5 praktik dasar membuat aplikasi grafis (GUI) menggunakan NetBeans** yang cocok untuk **pemula/SMK**, disusun dari yang paling sederhana sampai sedikit lebih kompleks 👍
+
+---
+
+## 1. Praktik 1: Membuat Form GUI Sederhana (Hello GUI)
+
+**Tujuan**
+Peserta didik mampu membuat tampilan GUI sederhana menggunakan NetBeans.
+
+**Langkah Praktik**
+
+* Buat project **Java → Java Application**
+* Buat **JFrame Form**
+* Tambahkan:
+
+  * `JLabel`
+  * `JButton`
+
+Code :
+'''
+import javax.swing.*;
+
+public class HelloGUI extends JFrame {
+
+    public HelloGUI() {
+        // Set judul frame
+        setTitle("Hello NetBeans GUI");
+
+        // Set ukuran frame
+        setSize(300, 200);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null); // Agar frame muncul di tengah layar
+
+        // Buat JLabel
+        JLabel label = new JLabel("Hello NetBeans GUI");
+        label.setBounds(50, 50, 200, 30); // (x, y, width, height)
+
+        // Buat JButton
+        JButton button = new JButton("Klik Saya");
+        button.setBounds(50, 100, 200, 30);
+
+        // Tambahkan komponen ke frame
+        add(label);
+        add(button);
+
+        // Set layout menjadi null agar bisa atur posisi manual
+        setLayout(null);
+    }
+
+    public static void main(String[] args) {
+        // Buat objek HelloGUI dan tampilkan
+        HelloGUI frame = new HelloGUI();
+        frame.setVisible(true);
+    }
+}
+'''
+
+**Tugas**
+
+* Ubah teks `JLabel` menjadi **“Hello NetBeans GUI”**
+* Atur ukuran dan posisi komponen
+
+**Hasil yang Diharapkan**
+
+* Aplikasi GUI muncul dengan label dan tombol
+
+---
+
+## 2. Praktik 2: Tombol Interaktif (Button Action)
+
+**Tujuan**
+Peserta didik mampu menggunakan event pada tombol.
+
+**Komponen**
+
+* `JLabel`
+* `JButton`
+
+**Tugas**
+
+* Ketika tombol diklik, teks `JLabel` berubah menjadi
+  **“Tombol Berhasil Diklik”**
+
+**Konsep yang Dipelajari**
+
+* Event `ActionPerformed`
+* Interaksi pengguna
+
+---
+
+## 3. Praktik 3: Form Input Data (Nama Pengguna)
+
+**Tujuan**
+Peserta didik mampu menerima input dari pengguna.
+
+**Komponen**
+
+* `JLabel`
+* `JTextField`
+* `JButton`
+
+**Tugas**
+
+* Pengguna memasukkan **nama**
+* Saat tombol diklik, tampilkan:
+
+  > “Halo, [Nama]”
+
+**Konsep yang Dipelajari**
+
+* Input teks
+* Pengambilan nilai dari `JTextField`
+
+---
+
+## 4. Praktik 4: Aplikasi Hitung Sederhana
+
+**Tujuan**
+Peserta didik mampu membuat aplikasi perhitungan sederhana.
+
+**Komponen**
+
+* 2 `JTextField`
+* `JButton`
+* `JLabel`
+
+**Tugas**
+
+* Input angka pertama dan kedua
+* Tombol **Hitung**
+* Menampilkan hasil **penjumlahan**
+
+**Konsep yang Dipelajari**
+
+* Konversi `String` ke `Integer`
+* Logika perhitungan
+
+---
+
+## 5. Praktik 5: Aplikasi Login Sederhana
+
+**Tujuan**
+Peserta didik mampu membuat validasi sederhana.
+
+**Komponen**
+
+* `JTextField` (Username)
+* `JPasswordField`
+* `JButton`
+* `JLabel`
+
+**Tugas**
+
+* Jika:
+
+  * Username: `admin`
+  * Password: `1234`
+* Tampilkan pesan **“Login Berhasil”**
+* Jika salah, tampilkan **“Login Gagal”**
+
+**Konsep yang Dipelajari**
+
+* Percabangan (`if-else`)
+* Validasi input
+
+---
+
+### 📌 Catatan untuk Guru
+
+* Praktik ini cocok untuk **mapel Pemrograman Dasar / PPLG / RPL**
+* Dapat dikembangkan menjadi:
+
+  * Kalkulator
+  * Form pendaftaran
+  * Aplikasi kasir sederhana
+
